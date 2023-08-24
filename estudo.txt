@@ -1,0 +1,14 @@
+ESTUDOS BANCO DE DADOS:
+
+
+
+** https://d1wqtxts1xzle7.cloudfront.net/34872460/bd04-er-relacional-v02-libre.pdf?1411643863=&response-content-disposition=attachment%3B+filename%3DBanco_de_Dados_Teoria_e_Pratica.pdf&Expires=1692879145&Signature=ZeBwZtwGTXFN2oTJsKi2caIOCbLVr3hu6rUPq-d4pEaK9hMjQTu18wv1PfW9fYUVa6kSM8W9eRKyiyGaGHzvN8EIAxOOCEfgzcK0tGLIFJNbEjnlET0tO8ClkhnKBmJQBl-h4wSaB4c12WxDaX52RzNlDZIGiUwcmJovfFQ9UwX7RzeZ1q82GV-kfOKw8Zw-Ov68gAbUZbbCDJ~xr5iSuRc7VyN0bQfcgZuX5edPX5LmGOWkl1kO7OMqwd12hoyLDjicacOyDYfQxr2wbZ4mdbWiADChkPrIE0pDQ12hmC73zstWE3NuovOfJAf4U0KiNM~uAqz0zCVoot1JRLgpYA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+
+** https://www.academia.edu/8491287/Banco_de_Dados_Teoria_e_Pr%C3%A1tica
+
+
+** https://www.ic.unicamp.br/~santanch/teaching/db/2019-2/index.html
+
+
+** https://www.sqlite.org/index.html
