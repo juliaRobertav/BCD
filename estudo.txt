@@ -12,3 +12,6 @@ ESTUDOS BANCO DE DADOS:
 
 
 ** https://www.sqlite.org/index.html
+
+
+** https://youtu.be/Q_KTYFgvu1s?si=-T5kui8ATKwJKdPB  (MODELAGEM DE DADOS)
