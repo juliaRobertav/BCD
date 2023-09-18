@@ -1,0 +1,4031 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DIAGRAMA ID="1" TIPO="tpLogico" UniversalUnicID="3732-D0-B03B-61-84A-97-5C">
+<InfoDiagrama ID="1">
+<Versao Valor="3.2.0"/>
+<Autores/>
+<Observacao/>
+<Width Valor="4096"/>
+<Height Valor="4096"/>
+<Alinhamento_v Valor="50"/>
+<Alinhamento_h Valor="60"/>
+<Zoom Valor="125"/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Localizacao Left="0" Top="24"/>
+<Realce Valor="false"/>
+<SeparatorSQL Valor=";"/>
+<Prefixo Valor=""/>
+</InfoDiagrama>
+<Tabela ID="2">
+<Bounds Height="238" Left="348" Top="59" Width="207"/>
+<DisablePainted Valor="false"/>
+<Texto>Cliente</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoEndereco</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>nome_razaoSocial</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>nomeSocial_Fantasia</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>foto_logo</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataNascimento_Abertura</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>usuario</Texto>
+<Tipo>char(10)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>senha</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="3">
+<Bounds Height="216" Left="667" Top="59" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Contato</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoCliente</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>observacao</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>email</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>ddd</Texto>
+<Tipo>char(3)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>ramal</Texto>
+<Tipo>varchar(10)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numero</Texto>
+<Tipo>varchar(10)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="4">
+<Bounds Height="194" Left="98" Top="60" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Endereco</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>bairro</Texto>
+<Tipo>varchar(75)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>logradouro</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>cep</Texto>
+<Tipo>char(10)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>uf</Texto>
+<Tipo>char(2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>cidade</Texto>
+<Tipo>varchar(75)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="5">
+<Bounds Height="194" Left="1078" Top="281" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Conta</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoContaTipo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>ativa</Texto>
+<Tipo>bool</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numero</Texto>
+<Tipo>varchar(20)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>limite</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>agencia</Texto>
+<Tipo>varchar(10)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="6">
+<Bounds Height="216" Left="1382" Top="414" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Cartao</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoConta</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoBandeira</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>situacao</Texto>
+<Tipo>varchar(20)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numero</Texto>
+<Tipo>varchar(30)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>validade</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>cvv</Texto>
+<Tipo>char(5)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1, 2]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="7">
+<Bounds Height="150" Left="1382" Top="719" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Movimentacao</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoOperacao</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataHora</Texto>
+<Tipo>datetime</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valor</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="8">
+<Bounds Height="260" Left="1181" Top="591" Width="171"/>
+<DisablePainted Valor="false"/>
+<Texto>Investimento</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoConta</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoInvestimentoTipo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoGrauRisco</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>prazo</Texto>
+<Tipo>varchar(20)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>aporte</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>rentabilidade</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>finalizado</Texto>
+<Tipo>bool</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>taxaAdministracao</Texto>
+<Tipo>float</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1, 2, 3]" CamposOrigem="[-1, -1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="9">
+<Bounds Height="260" Left="967" Top="590" Width="176"/>
+<DisablePainted Valor="false"/>
+<Texto>Emprestimo</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoConta</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valorSolicitado</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>observacao</Texto>
+<Tipo>varchar(200)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>juros</Texto>
+<Tipo>float</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataSolicitacao</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>aprovado</Texto>
+<Tipo>bool</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataAprovacao</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numeroParcela</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="10">
+<Bounds Height="216" Left="966" Top="936" Width="175"/>
+<DisablePainted Valor="false"/>
+<Texto>EmprestimoParcela</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoEmprestimo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valorParcela</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valorPago</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numero</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataPagamento</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataVencimento</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="11">
+<Bounds Height="128" Left="194" Top="562" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Seguro</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoConta</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="12">
+<Bounds Height="106" Left="778" Top="599" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Cobertura</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="264"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[1]" ID="262,0">IR chave primaria</ConstraintOrigem>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="13">
+<Bounds Height="106" Left="574" Top="740" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Servico</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="284"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[1]" ID="279,0">IR chave primaria</ConstraintOrigem>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="14">
+<Bounds Height="150" Left="182" Top="1124" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Imovel</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoTipoImovel</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoEndereco</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valor</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1, 2]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="15">
+<Bounds Height="194" Left="759" Top="1091" Width="166"/>
+<DisablePainted Valor="false"/>
+<Texto>Sinistro</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoImovel</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>indenizacao</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataAbertura</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataFinalizacao</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(300)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="16">
+<Bounds Height="238" Left="365" Top="879" Width="165"/>
+<DisablePainted Valor="false"/>
+<Texto>SeguroPagamento</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoSeguro</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>quantidadeParcelas</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valorPago</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataVencimento</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>dataPagamento</Texto>
+<Tipo>date</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>valorTotal</Texto>
+<Tipo>decimal(10,2)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>numeroParcela</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[1]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="17">
+<Bounds Height="106" Left="779" Top="843" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>SinistroCobertura</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoCobertura</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoSinistro</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1, -1]" CamposOrigem="[0, 1]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0, 1]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="18">
+<Bounds Height="106" Left="579" Top="924" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>SinistroServico</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoServico</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoSinistro</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1, -1]" CamposOrigem="[0, 1]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0, 1]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="19">
+<Bounds Height="106" Left="671" Top="306" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>ClienteConta</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoCliente</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoConta</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1, -1]" CamposOrigem="[0, 1]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0, 1]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="20">
+<Bounds Height="106" Left="453" Top="1192" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>tipoImovel</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="21">
+<Bounds Height="106" Left="1374" Top="274" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>ContaTipo</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="22">
+<Bounds Height="106" Left="1623" Top="414" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Bandeira</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="23">
+<Bounds Height="106" Left="1625" Top="718" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>Operacao</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="24">
+<Bounds Height="106" Left="1239" Top="937" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>GrauRisco</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="25">
+<Bounds Height="106" Left="1180" Top="1090" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>InvestimentoTipo</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigo</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>descricao</Texto>
+<Tipo>varchar(100)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<LogicoLinha ID="26">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="5" PontaB="6"/>
+<Pontos>
+<Ponto Left="1225" Top="449"/>
+<Ponto Left="1302" Top="449"/>
+<Ponto Left="1302" Top="449"/>
+<Ponto Left="1378" Top="449"/>
+</Pontos>
+<LogicoCardinalidade ID="27">
+<Bounds Height="15" Left="1235" Top="436" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_1</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="28">
+<Bounds Height="15" Left="1339" Top="436" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_2</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="29">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="6" PontaB="7"/>
+<Pontos>
+<Ponto Left="1452" Top="628"/>
+<Ponto Left="1452" Top="671"/>
+<Ponto Left="1452" Top="671"/>
+<Ponto Left="1452" Top="715"/>
+</Pontos>
+<LogicoCardinalidade ID="30">
+<Bounds Height="15" Left="1420" Top="638" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_3</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="31">
+<Bounds Height="15" Left="1419" Top="696" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_4</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="32">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="2" PontaB="3"/>
+<Pontos>
+<Ponto Left="553" Top="164"/>
+<Ponto Left="608" Top="164"/>
+<Ponto Left="608" Top="164"/>
+<Ponto Left="663" Top="164"/>
+</Pontos>
+<LogicoCardinalidade ID="33">
+<Bounds Height="15" Left="563" Top="151" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_5</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="34">
+<Bounds Height="15" Left="624" Top="151" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_6</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="35">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="4" PontaB="2"/>
+<Pontos>
+<Ponto Left="245" Top="164"/>
+<Ponto Left="295" Top="164"/>
+<Ponto Left="295" Top="164"/>
+<Ponto Left="344" Top="164"/>
+</Pontos>
+<LogicoCardinalidade ID="36">
+<Bounds Height="15" Left="255" Top="151" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_7</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="37">
+<Bounds Height="15" Left="305" Top="151" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_8</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="38">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="5" PontaB="9"/>
+<Pontos>
+<Ponto Left="1114" Top="473"/>
+<Ponto Left="1114" Top="529"/>
+<Ponto Left="1114" Top="529"/>
+<Ponto Left="1114" Top="586"/>
+</Pontos>
+<LogicoCardinalidade ID="39">
+<Bounds Height="15" Left="1082" Top="483" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_9</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="40">
+<Bounds Height="15" Left="1081" Top="567" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_10</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="48">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="9" PontaB="10"/>
+<Pontos>
+<Ponto Left="1049" Top="847"/>
+<Ponto Left="1049" Top="890"/>
+<Ponto Left="1049" Top="890"/>
+<Ponto Left="1049" Top="932"/>
+</Pontos>
+<LogicoCardinalidade ID="49">
+<Bounds Height="15" Left="1017" Top="857" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_15</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="50">
+<Bounds Height="15" Left="1016" Top="913" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_16</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="51">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="5" PontaB="11"/>
+<Pontos>
+<Ponto Left="1074" Top="449"/>
+<Ponto Left="708" Top="449"/>
+<Ponto Left="708" Top="580"/>
+<Ponto Left="342" Top="580"/>
+</Pontos>
+<LogicoCardinalidade ID="52">
+<Bounds Height="15" Left="1036" Top="436" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_17</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="53">
+<Bounds Height="15" Left="352" Top="567" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_18</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="60">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="11" PontaB="14"/>
+<Pontos>
+<Ponto Left="211" Top="688"/>
+<Ponto Left="211" Top="904"/>
+<Ponto Left="211" Top="904"/>
+<Ponto Left="211" Top="1120"/>
+</Pontos>
+<LogicoCardinalidade ID="61">
+<Bounds Height="15" Left="179" Top="698" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_23</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="62">
+<Bounds Height="15" Left="178" Top="1101" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_24</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="63">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="11" PontaB="16"/>
+<Pontos>
+<Ponto Left="250" Top="688"/>
+<Ponto Left="250" Top="963"/>
+<Ponto Left="361" Top="963"/>
+</Pontos>
+<LogicoCardinalidade ID="64">
+<Bounds Height="15" Left="218" Top="698" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_25</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="65">
+<Bounds Height="15" Left="322" Top="950" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_26</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="66">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="14" PontaB="15"/>
+<Pontos>
+<Ponto Left="330" Top="1153"/>
+<Ponto Left="542" Top="1153"/>
+<Ponto Left="542" Top="1153"/>
+<Ponto Left="755" Top="1153"/>
+</Pontos>
+<LogicoCardinalidade ID="67">
+<Bounds Height="15" Left="340" Top="1140" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_27</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="68">
+<Bounds Height="15" Left="716" Top="1140" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_28</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="69">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="4" PontaB="14"/>
+<Pontos>
+<Ponto Left="134" Top="251"/>
+<Ponto Left="134" Top="1153"/>
+<Ponto Left="178" Top="1153"/>
+</Pontos>
+<LogicoCardinalidade ID="70">
+<Bounds Height="15" Left="102" Top="261" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_29</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="71">
+<Bounds Height="15" Left="140" Top="1140" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_30</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="1"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="72">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="20" PontaB="14"/>
+<Pontos>
+<Ponto Left="449" Top="1224"/>
+<Ponto Left="389" Top="1224"/>
+<Ponto Left="389" Top="1224"/>
+<Ponto Left="330" Top="1224"/>
+</Pontos>
+<LogicoCardinalidade ID="73">
+<Bounds Height="15" Left="411" Top="1211" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_31</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="74">
+<Bounds Height="15" Left="340" Top="1211" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_32</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="75">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="21" PontaB="5"/>
+<Pontos>
+<Ponto Left="1370" Top="323"/>
+<Ponto Left="1298" Top="323"/>
+<Ponto Left="1298" Top="323"/>
+<Ponto Left="1225" Top="323"/>
+</Pontos>
+<LogicoCardinalidade ID="76">
+<Bounds Height="15" Left="1332" Top="310" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_33</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="77">
+<Bounds Height="15" Left="1235" Top="310" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_34</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="78">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="22" PontaB="6"/>
+<Pontos>
+<Ponto Left="1619" Top="473"/>
+<Ponto Left="1574" Top="473"/>
+<Ponto Left="1574" Top="473"/>
+<Ponto Left="1530" Top="473"/>
+</Pontos>
+<LogicoCardinalidade ID="79">
+<Bounds Height="15" Left="1581" Top="460" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_35</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="80">
+<Bounds Height="15" Left="1540" Top="460" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_36</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="81">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="23" PontaB="7"/>
+<Pontos>
+<Ponto Left="1621" Top="777"/>
+<Ponto Left="1575" Top="777"/>
+<Ponto Left="1575" Top="777"/>
+<Ponto Left="1530" Top="777"/>
+</Pontos>
+<LogicoCardinalidade ID="82">
+<Bounds Height="15" Left="1583" Top="764" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_37</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="83">
+<Bounds Height="15" Left="1540" Top="764" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_38</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="84">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="25" PontaB="8"/>
+<Pontos>
+<Ponto Left="1215" Top="1086"/>
+<Ponto Left="1215" Top="967"/>
+<Ponto Left="1215" Top="967"/>
+<Ponto Left="1215" Top="849"/>
+</Pontos>
+<LogicoCardinalidade ID="85">
+<Bounds Height="15" Left="1183" Top="1067" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_39</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="86">
+<Bounds Height="15" Left="1182" Top="859" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_40</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="87">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="24" PontaB="8"/>
+<Pontos>
+<Ponto Left="1303" Top="933"/>
+<Ponto Left="1303" Top="891"/>
+<Ponto Left="1303" Top="891"/>
+<Ponto Left="1303" Top="849"/>
+</Pontos>
+<LogicoCardinalidade ID="88">
+<Bounds Height="15" Left="1271" Top="914" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_41</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="89">
+<Bounds Height="15" Left="1270" Top="859" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_42</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="91">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="17" PontaB="15"/>
+<Pontos>
+<Ponto Left="854" Top="947"/>
+<Ponto Left="854" Top="1017"/>
+<Ponto Left="854" Top="1017"/>
+<Ponto Left="854" Top="1087"/>
+</Pontos>
+<LogicoCardinalidade ID="92">
+<Bounds Height="15" Left="821" Top="957" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_43</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="93">
+<Bounds Height="15" Left="822" Top="1068" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_44</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="94">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="17" PontaB="12"/>
+<Pontos>
+<Ponto Left="854" Top="839"/>
+<Ponto Left="854" Top="771"/>
+<Ponto Left="854" Top="771"/>
+<Ponto Left="854" Top="702"/>
+</Pontos>
+<LogicoCardinalidade ID="95">
+<Bounds Height="15" Left="821" Top="820" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_45</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="96">
+<Bounds Height="15" Left="822" Top="712" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_46</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="98">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="18" PontaB="13"/>
+<Pontos>
+<Ponto Left="654" Top="920"/>
+<Ponto Left="654" Top="882"/>
+<Ponto Left="654" Top="882"/>
+<Ponto Left="654" Top="843"/>
+</Pontos>
+<LogicoCardinalidade ID="99">
+<Bounds Height="15" Left="621" Top="901" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_47</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="100">
+<Bounds Height="15" Left="622" Top="853" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_48</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="101">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="18" PontaB="15"/>
+<Pontos>
+<Ponto Left="654" Top="1028"/>
+<Ponto Left="654" Top="1107"/>
+<Ponto Left="755" Top="1107"/>
+</Pontos>
+<LogicoCardinalidade ID="102">
+<Bounds Height="15" Left="621" Top="1038" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_49</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="103">
+<Bounds Height="15" Left="717" Top="1094" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_50</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="105">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="19" PontaB="5"/>
+<Pontos>
+<Ponto Left="819" Top="353"/>
+<Ponto Left="946" Top="353"/>
+<Ponto Left="946" Top="353"/>
+<Ponto Left="1074" Top="353"/>
+</Pontos>
+<LogicoCardinalidade ID="106">
+<Bounds Height="15" Left="829" Top="340" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_51</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="107">
+<Bounds Height="15" Left="1036" Top="340" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_52</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="108">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="19" PontaB="2"/>
+<Pontos>
+<Ponto Left="667" Top="353"/>
+<Ponto Left="610" Top="353"/>
+<Ponto Left="610" Top="264"/>
+<Ponto Left="553" Top="264"/>
+</Pontos>
+<LogicoCardinalidade ID="109">
+<Bounds Height="15" Left="628" Top="340" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_53</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="110">
+<Bounds Height="15" Left="563" Top="251" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_54</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="109">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="5" PontaB="8"/>
+<Pontos>
+<Ponto Left="1208" Top="472"/>
+<Ponto Left="1208" Top="530"/>
+<Ponto Left="1208" Top="530"/>
+<Ponto Left="1208" Top="587"/>
+</Pontos>
+<LogicoCardinalidade ID="110">
+<Bounds Height="15" Left="1176" Top="482" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_11</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="111">
+<Bounds Height="15" Left="1175" Top="568" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_12</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="3"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<Tabela ID="262">
+<Bounds Height="106" Left="458" Top="599" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>SeguroCobertura</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoSeguro</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoCobertura</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1, -1]" CamposOrigem="[0, 1]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0, 1]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<LogicoLinha ID="264">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="262" PontaB="12"/>
+<Pontos>
+<Ponto Left="605" Top="647"/>
+<Ponto Left="703" Top="647"/>
+<Ponto Left="703" Top="647"/>
+<Ponto Left="774" Top="647"/>
+</Pontos>
+<LogicoCardinalidade ID="265">
+<Bounds Height="15" Left="615" Top="634" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_13</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="266">
+<Bounds Height="15" Left="736" Top="634" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_14</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="267">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="false"/>
+<TemSetaPontaB Valor="true"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="11" PontaB="262"/>
+<Pontos>
+<Ponto Left="341" Top="637"/>
+<Ponto Left="398" Top="637"/>
+<Ponto Left="398" Top="637"/>
+<Ponto Left="454" Top="637"/>
+</Pontos>
+<LogicoCardinalidade ID="268">
+<Bounds Height="15" Left="351" Top="624" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_19</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="269">
+<Bounds Height="15" Left="415" Top="624" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_20</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<Tabela ID="279">
+<Bounds Height="106" Left="335" Top="740" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>SeguroServico</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoSeguro</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>codigoServico</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1, -1]" CamposOrigem="[0, 1]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0, 1]" CamposOrigem="[-1, -1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<LogicoLinha ID="281">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="279" PontaB="11"/>
+<Pontos>
+<Ponto Left="331" Top="784"/>
+<Ponto Left="289" Top="784"/>
+<Ponto Left="289" Top="687"/>
+</Pontos>
+<LogicoCardinalidade ID="282">
+<Bounds Height="15" Left="292" Top="771" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_21</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="283">
+<Bounds Height="15" Left="257" Top="697" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_22</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="284">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="279" PontaB="13"/>
+<Pontos>
+<Ponto Left="482" Top="784"/>
+<Ponto Left="526" Top="784"/>
+<Ponto Left="526" Top="784"/>
+<Ponto Left="570" Top="784"/>
+</Pontos>
+<LogicoCardinalidade ID="285">
+<Bounds Height="15" Left="492" Top="771" Width="35"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_55</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="2"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="286">
+<Bounds Height="15" Left="532" Top="771" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_56</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<Tabela ID="340">
+<Bounds Height="128" Left="198" Top="393" Width="150"/>
+<DisablePainted Valor="false"/>
+<Texto>ClientePF</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoCliente</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>rg</Texto>
+<Tipo>varchar(20)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>cpf</Texto>
+<Tipo>varchar(20)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<Tabela ID="341">
+<Bounds Height="150" Left="428" Top="389" Width="192"/>
+<DisablePainted Valor="false"/>
+<Texto>ClientePJ</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<Delimite Valor="true"/>
+<Roundrect Valor="22"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<CorBorda Valor="0,0,0,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<Autosize Valor="true"/>
+<Gradiente Valor="true"/>
+<GradienteStartColor Valor="0,0,0,255"/>
+<GradienteEndColor Valor="204,204,204,255"/>
+<GDirecao Valor="0"/>
+<Alfa Valor="25"/>
+<ShowDDL Valor="false"/>
+<ShowInPlain Valor="false"/>
+<MostrarConstraints Valor="true"/>
+<PlainIR Valor="true"/>
+<Campos>
+<Campo>
+<Texto>codigoCliente</Texto>
+<Tipo>int</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="true"/>
+<Fkey Valor="true"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>cnpj</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>inscricaoMunicipal</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+<Campo>
+<Texto>inscricaoEstadual</Texto>
+<Tipo>varchar(50)</Tipo>
+<Complemento/>
+<Dicionario/>
+<Observacao/>
+<Key Valor="false"/>
+<Fkey Valor="false"/>
+<Unique Valor="false"/>
+</Campo>
+</Campos>
+<Constraints>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="0"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[-1]" CamposOrigem="[0]" ID="-1,-1"/>
+</Constraint>
+<Constraint>
+<Nome Valor=""/>
+<Nomeada Valor="false"/>
+<Tipo Valor="2"/>
+<Dicionario/>
+<Observacao/>
+<DdlOnUpdate/>
+<DdlOnDelete/>
+<LigacaoParaOrigem ID="-1"/>
+<ConstraintOrigem CamposDestino="[0]" CamposOrigem="[-1]" ID="-1,-1"/>
+</Constraint>
+</Constraints>
+</Tabela>
+<LogicoLinha ID="347">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="2" PontaB="340"/>
+<Pontos>
+<Ponto Left="383" Top="295"/>
+<Ponto Left="383" Top="342"/>
+<Ponto Left="272" Top="342"/>
+<Ponto Left="272" Top="389"/>
+</Pontos>
+<LogicoCardinalidade ID="348">
+<Bounds Height="15" Left="351" Top="305" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_57</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="1"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="349">
+<Bounds Height="15" Left="240" Top="370" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_58</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+<LogicoLinha ID="350">
+<DisablePainted Valor="false"/>
+<Tag LinhaMestre="-1"/>
+<Dashed Valor="false"/>
+<Ancorado Valor="false"/>
+<TemSetaPontaA Valor="true"/>
+<TemSetaPontaB Valor="false"/>
+<SetaAberta Valor="true"/>
+<SetaLargura Valor="10"/>
+<Inteligente Valor="true"/>
+<SetaAutomatica Valor="true"/>
+<Largura Valor="1"/>
+<Ligacoes PontaA="2" PontaB="341"/>
+<Pontos>
+<Ponto Left="457" Top="295"/>
+<Ponto Left="457" Top="340"/>
+<Ponto Left="523" Top="340"/>
+<Ponto Left="523" Top="385"/>
+</Pontos>
+<LogicoCardinalidade ID="351">
+<Bounds Height="15" Left="425" Top="305" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_59</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="1"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+<LogicoCardinalidade ID="352">
+<Bounds Height="15" Left="491" Top="366" Width="34"/>
+<DisablePainted Valor="false"/>
+<Texto>Cardinalidade_60</Texto>
+<Observacao/>
+<Dicionario/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+<Ancorado Valor="false"/>
+<TamanhoAutmatico Valor="true"/>
+<Card Valor="0"/>
+<MovimentacaoManual Valor="false"/>
+<Papel Valor=""/>
+<Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
+</LogicoCardinalidade>
+</LogicoLinha>
+</DIAGRAMA>
