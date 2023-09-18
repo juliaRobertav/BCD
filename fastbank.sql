@@ -43,6 +43,9 @@ create table Cliente(
     senha int
 );
 
+ALTER TABLE Cliente
+AUTO_INCREMENT = 1;
+
 -- ClientePJ
 
 create table ClientePJ(
@@ -75,6 +78,9 @@ create table ClientePF(
 	foreign key (codigoCliente) references Cliente(codigo)
 );
 
+ALTER TABLE ClientePF
+AUTO_INCREMENT = 1;
+
 -- Contato
 
 create table Contato(
@@ -82,6 +88,9 @@ create table Contato(
     codigoCliente int,
     foreign key (codigoCliente) references Cliente(codigo)
 );
+
+ALTER TABLE Contato
+AUTO_INCREMENT = 1;
 
 -- Conta
 
@@ -94,6 +103,9 @@ create table Conta(
     agencia varchar(10)
 );
 
+ALTER TABLE Conta
+AUTO_INCREMENT = 1;
+
 alter table Conta
 add foreign key (codigoContaTipo) references ContaTipo(codigo);
 
@@ -103,6 +115,9 @@ create table ContaTipo(
 	codigo int not null primary key,
     descricao varchar(100)
 );
+
+ALTER TABLE ContaTipo
+AUTO_INCREMENT = 1;
 
 -- ClienteConta
 
@@ -126,6 +141,9 @@ create table Cartao(
 	foreign key (codigoConta) references Conta(codigo)
 );
 
+ALTER TABLE Cartao
+AUTO_INCREMENT = 1;
+
 alter table Cartao
 add foreign key (codigoBandeira) references Bandeira(codigo);
 
@@ -135,6 +153,9 @@ create table Bandeira(
 	codigo int not null primary key,
     descricao varchar(100)
 );
+
+ALTER TABLE Bandeira
+AUTO_INCREMENT = 1;
 
 -- Emprestimo
 
@@ -166,6 +187,9 @@ create table Investimento(
     taxaAdministracao float
 );
 
+ALTER TABLE Investimento
+AUTO_INCREMENT = 1;
+
 alter table Investimento
 add foreign key (codigoInvestimentoTipo) references InvestimentoTipo(codigo),
 add foreign key (codigoGrauRisco) references GrauRisco(codigo);
@@ -179,6 +203,9 @@ create table Movimentacao(
     valor decimal(10, 2)
 );
 
+ALTER TABLE Movimentacao
+AUTO_INCREMENT = 1;
+
 alter table Movimentacao
 add foreign key (codigoOperacao) references Operacao(codigo);
 
@@ -189,6 +216,8 @@ create table Operacao(
     descricao varchar(100)
 );
 
+ALTER TABLE Operacao
+AUTO_INCREMENT = 1;
 -- Grau Risco
 
 create table GrauRisco(
@@ -196,12 +225,18 @@ create table GrauRisco(
     descricao varchar(100)
 );
 
+ALTER TABLE GrauRisco
+AUTO_INCREMENT = 1;
+
 -- Investimento Tipo
 
 create table InvestimentoTipo(
 	codigo int not null primary key,
     descricao varchar(100)
 );
+
+ALTER TABLE InvestimentoTipo
+AUTO_INCREMENT = 1;
 
 -- Emprestimo Parcela
 
@@ -216,6 +251,8 @@ create table EmprestimoParcela(
     dataVencimento date
 );
 
+ALTER TABLE EmprestimoParcela
+AUTO_INCREMENT = 1;
 -- Seguro
 
 create table Seguro(
@@ -225,12 +262,18 @@ create table Seguro(
     descricao varchar(50)
 );
 
+ALTER TABLE Seguro
+AUTO_INCREMENT = 1;
+
 -- Cobertura
 
 create table Cobertura(
 	codigo int not null primary key,
     descricao int
 );
+
+ALTER TABLE Cobertura
+AUTO_INCREMENT = 1;
 
 alter table Cobertura
 drop column descricao,
@@ -251,6 +294,9 @@ create table Servico(
     descricao int
 );
 
+ALTER TABLE Servico
+AUTO_INCREMENT = 1;
+
 alter table Servico
 drop column descricao,
 add descricao varchar(100);
@@ -269,6 +315,9 @@ create table SeguroPagamento(
     numeroParcela int
 );
 
+ALTER TABLE SeguroPagamento
+AUTO_INCREMENT = 1;
+
 -- Tipo Imovel
 
 create table tipoImovel(
@@ -276,6 +325,8 @@ create table tipoImovel(
     descricao varchar(50)
 );
 
+ALTER TABLE TipoImovel
+AUTO_INCREMENT = 1;
 -- Imovel
 
 create table Imovel(
@@ -285,6 +336,9 @@ create table Imovel(
     valor decimal(10, 2),
     foreign key (codigoTipoImovel) references TipoImovel(codigo)
 );
+
+ALTER TABLE Imovel
+AUTO_INCREMENT = 1;
 
 alter table Imovel
 add foreign key (codigoEndereco) references Endereco(codigo);
@@ -300,6 +354,9 @@ create table Sinistro(
     dataFinalizacao date,
     descricao varchar(300)
 );
+
+ALTER TABLE Sinistro
+AUTO_INCREMENT = 1;
 
 -- Sinistro Cobertura
 
