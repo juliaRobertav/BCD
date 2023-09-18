@@ -27,10 +27,13 @@ create table Endereco(
     constraint PK_Endereco primary key (codigo)
 );
 
+ALTER TABLE Endereco
+add codigo int not null primary key;
+
 -- Cliente
 
 create table Cliente(
-	codigo int,
+	codigo int not null,
     codigoEndereco int,
     nome_razaoSocial varchar(100),
     nomeSocial_Fantasia varchar(100),
@@ -49,8 +52,269 @@ create table ClientePJ(
     inscricaoEstadual varchar(50)
 );
 
+-- alterando tabela
+
 alter table ClientePJ
 add regiao varchar(100);
 
 alter table ClientePJ
 drop column inscricaoMunicipal;
+
+alter table Cliente
+add primary key (codigo);
+
+alter table ClientePJ
+add foreign key (codigoCliente) REFERENCES Cliente(codigo);
+
+-- Cliente PF
+
+create table ClientePF(
+	codigoCliente int,
+    rg varchar(20),
+    cpf varchar(20),
+	foreign key (codigoCliente) references Cliente(codigo)
+);
+
+-- Contato
+
+create table Contato(
+	codigo int not null primary key,
+    codigoCliente int,
+    foreign key (codigoCliente) references Cliente(codigo)
+);
+
+-- Conta
+
+create table Conta(
+	codigo int not null primary key,
+    codigoContaTipo int,
+    ativa boolean,
+    numero varchar(20),
+    limite decimal(10, 2),
+    agencia varchar(10)
+);
+
+alter table Conta
+add foreign key (codigoContaTipo) references ContaTipo(codigo);
+
+-- ContaTipo
+
+create table ContaTipo(
+	codigo int not null primary key,
+    descricao varchar(100)
+);
+
+-- ClienteConta
+
+create table ClienteConta(
+	codigoCliente int,
+    codigoConta int,
+	foreign key (codigoCliente) references Cliente(codigo),
+    foreign key (codigoConta) references Conta(codigo)
+);
+
+-- Cartao
+
+create table Cartao(
+	codigo int not null primary key,
+    codigoConta int,
+    codigoBandeira int,
+    situacao varchar(20),
+    numero varchar(30),
+    validade date,
+    cvv char(5),
+	foreign key (codigoConta) references Conta(codigo)
+);
+
+alter table Cartao
+add foreign key (codigoBandeira) references Bandeira(codigo);
+
+-- Bandeira
+
+create table Bandeira(
+	codigo int not null primary key,
+    descricao varchar(100)
+);
+
+-- Emprestimo
+
+create table Emprestimo(
+	codigo int not null primary key,
+    codigoConta int,
+    foreign key (codigoConta) references Conta(codigo),
+    valorSolicitado decimal(10, 2),
+    observacao varchar(200),
+    juros float,
+    dataSolicitacao date,
+    aprovado bool,
+    dataAprovacao date,
+    numeroParcela int
+);
+
+-- Investimento
+
+create table Investimento(
+	codigo int not null primary key,
+    codigoConta int,
+	foreign key (codigoConta) references Conta(codigo),
+    codigoInvestimentoTipo int,
+    codigoGrauRisco int,
+    prazo varchar(20),
+    aporte decimal(10, 2),
+    rentabilidade decimal(10, 2),
+    finalizado bool,
+    taxaAdministracao float
+);
+
+alter table Investimento
+add foreign key (codigoInvestimentoTipo) references InvestimentoTipo(codigo),
+add foreign key (codigoGrauRisco) references GrauRisco(codigo);
+
+-- Movimentacao
+
+create table Movimentacao(
+	codigo int not null primary key,
+    codigoOperacao int,
+    dataHora datetime,
+    valor decimal(10, 2)
+);
+
+alter table Movimentacao
+add foreign key (codigoOperacao) references Operacao(codigo);
+
+-- Operacao
+
+create table Operacao(
+	codigo int not null primary key,
+    descricao varchar(100)
+);
+
+-- Grau Risco
+
+create table GrauRisco(
+	codigo int not null primary key,
+    descricao varchar(100)
+);
+
+-- Investimento Tipo
+
+create table InvestimentoTipo(
+	codigo int not null primary key,
+    descricao varchar(100)
+);
+
+-- Emprestimo Parcela
+
+create table EmprestimoParcela(
+	codigo int not null primary key,
+    codigoEmprestimo int,
+    foreign key (codigoEmprestimo) references Emprestimo(codigo),
+    valorParcela decimal(10, 2),
+    valorPago decimal(10, 2),
+    numero int,
+    dataPagamento date,
+    dataVencimento date
+);
+
+-- Seguro
+
+create table Seguro(
+	codigo int not null primary key,
+    codigoConta int,
+	foreign key (codigoConta) references Conta(codigo),
+    descricao varchar(50)
+);
+
+-- Cobertura
+
+create table Cobertura(
+	codigo int not null primary key,
+    descricao int
+);
+
+alter table Cobertura
+drop column descricao,
+add descricao varchar(100);
+
+-- Seguro Cobertura
+
+create table SeguroCobertura(
+	codigoSeguro int,
+    codigoCobertura int,
+	foreign key (codigoSeguro) references Seguro(codigo),
+	foreign key (codigoCobertura) references Cobertura(codigo)
+);
+
+-- Servico
+create table Servico(
+	codigo int not null primary key,
+    descricao int
+);
+
+alter table Servico
+drop column descricao,
+add descricao varchar(100);
+
+-- Seguro Pagamento
+
+create table SeguroPagamento(
+	codigo int not null primary key,
+    codigoSeguro int,
+	foreign key (codigoSeguro) references Seguro(codigo),
+    quantidadeParcelas int,
+    valorPago decimal(10, 2),
+    dataVencimento date,
+    dataPagamento date,
+    valorTotal decimal(10, 2),
+    numeroParcela int
+);
+
+-- Tipo Imovel
+
+create table tipoImovel(
+	codigo int not null primary key,
+    descricao varchar(50)
+);
+
+-- Imovel
+
+create table Imovel(
+	codigo int not null primary key,
+    codigoTipoImovel int,
+    codigoEndereco int,
+    valor decimal(10, 2),
+    foreign key (codigoTipoImovel) references TipoImovel(codigo)
+);
+
+alter table Imovel
+add foreign key (codigoEndereco) references Endereco(codigo);
+
+-- Sinistro
+
+create table Sinistro(
+	codigo int not null primary key,
+    codigoImovel int,
+	foreign key (codigoImovel) references Imovel(codigo),
+    indenizacao decimal(10, 2),
+    dataAbertura date,
+    dataFinalizacao date,
+    descricao varchar(300)
+);
+
+-- Sinistro Cobertura
+
+create table SinistroCobertura(
+	codigoCobertura int,
+    codigoSinistro int,
+    foreign key (codigoCobertura) references Cobertura(codigo),
+	foreign key (codigoSinistro) references Sinistro(codigo)
+);
+
+-- Sinistro Servico
+
+create table SinistroServico(
+	codigoServico int,
+    codigoSinistro int,
+    foreign key (codigoServico) references Servico(codigo),
+	foreign key (codigoSinistro) references Sinistro(codigo)
+);
