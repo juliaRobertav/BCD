@@ -6,6 +6,8 @@ chaves:
 
 https://www.w3schools.com/sql/sql_foreignkey.asp
 
+** constraint - chaves ficam visíveis nas colunas
+
 auto increment:
 
 http://www.bosontreinamentos.com.br/mysql/mysql-auto-incremento-de-valores-em-colunas-08/
