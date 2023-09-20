@@ -29,3 +29,17 @@ definimos como sendo "Dados sobre os dados"
 
 
 BANCO DE DADOS -> 
+
+
+
+
+
+
+
+
+
+Banco de Dados - do básico ao avançado
+
+Dado e Informação
+
+Dado -> menor parte do banco de dados, o banco é criado para guardar dados não informação
