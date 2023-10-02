@@ -58,25 +58,25 @@ use fastbank;
 */
 
 create table conta_tipo(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_contatipo primary key (codigo)
 );
 
 create table bandeira(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_bandeira primary key (codigo)
 );
 
 create table operacao(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_operacao primary key (codigo)
 );
 
 create table investimento_tipo(
-	codigo int auto_increment,
+    codigo int auto_increment,
     modalidade varchar(50) not null,
     sigla varchar(20) not null,
     descricao varchar(100) not null,
@@ -84,14 +84,14 @@ create table investimento_tipo(
 );
 
 create table grau_risco(
-	codigo int auto_increment,
+    codigo int auto_increment,
     sigla varchar(20) not null,
     descricao varchar(100) not null,
     constraint pk_graurisco primary key (codigo)
 );
 
 create table tipo_imovel(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_tipoimovel primary key (codigo)
 );
@@ -104,7 +104,7 @@ create table tipo_imovel(
 */
 
 create table endereco(
-	codigo int auto_increment,
+    codigo int auto_increment,
     logradouro varchar(100) not null,
     bairro varchar(75) not null,
     cep char(10) not null,
@@ -114,13 +114,13 @@ create table endereco(
 );
 
 create table cobertura(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_cobertura primary key (codigo)
 );
 
 create table servico(
-	codigo int auto_increment,
+    codigo int auto_increment,
     descricao varchar(100) not null,
     constraint pk_servico primary key (codigo)
 );
@@ -144,7 +144,7 @@ create table servico(
 */
 
 create table cliente(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_endereco int not null,
     nome_razaosocial varchar(100) not null,
     nomesocial_fantasia varchar(100),
@@ -159,7 +159,7 @@ create table cliente(
 );
 
 create table cliente_pf(
-	codigo_cliente int,
+    codigo_cliente int,
     rg varchar(20) not null,
     cpf varchar(20) not null,
     constraint pk_clientepf primary key (codigo_cliente),
@@ -168,7 +168,7 @@ create table cliente_pf(
 );
 
 create table cliente_pj(
-	codigo_cliente int,
+    codigo_cliente int,
     cnpj varchar(50) not null,
     inscricao_municipal varchar(50) not null,
     inscricao_estadual varchar(50),
@@ -178,7 +178,7 @@ create table cliente_pj(
 );
 
 create table contato(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_cliente int not null,
     ddd char(3) not null,
     numero varchar(10) not null,
@@ -192,7 +192,7 @@ create table contato(
 );
 
 create table conta(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_conta_tipo int not null,
     agencia varchar(10) not null,
     numero varchar(20) not null,
@@ -203,7 +203,7 @@ create table conta(
 );
 
 create table cartao(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_conta int not null,
     codigo_bandeira int not null,
     numero varchar(30) not null,
@@ -217,7 +217,7 @@ create table cartao(
 );
 
 create table movimentacao(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_operacao int not null,
     data_hora datetime not null,
     valor decimal(10,2) not null,
@@ -226,7 +226,7 @@ create table movimentacao(
 );
 
 create table investimento(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_conta int not null,
     codigo_investimento_tipo int not null,
     codigo_grau_risco int not null,
@@ -243,7 +243,7 @@ create table investimento(
 );
 
 create table emprestimo(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_conta int not null,
     valor_solicitado decimal(10,2),
     data_solicitacao date not null,
@@ -257,7 +257,7 @@ create table emprestimo(
 );
 
 create table emprestimo_parcela(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_emprestimo int not null,
     numero int not null,
     valor_parcela decimal(10,2) not null,
@@ -269,7 +269,7 @@ create table emprestimo_parcela(
 );
 
 create table seguro(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_conta int not null,
     movimento datetime,
     valor decimal(10,2),
@@ -278,7 +278,7 @@ create table seguro(
 );
 
 create table seguro_pagamento(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_seguro int not null,
     quantidade_parcelas int not null,
     numero_parcela int not null,
@@ -291,7 +291,7 @@ create table seguro_pagamento(
 );
 
 create table imovel(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_tipo_imovel int,
     codigo_endereco int,
     valor decimal(10,2) not null,
@@ -300,7 +300,7 @@ create table imovel(
 );
 
 create table sinistro(
-	codigo int auto_increment,
+    codigo int auto_increment,
     codigo_imovel int not null,
     data_abertura date not null,
     descricao varchar(300) not null,
@@ -320,7 +320,7 @@ create table sinistro(
 */
 
 create table cliente_conta(
-	codigo_cliente int,
+    codigo_cliente int,
     codigo_conta int,
     constraint pk_clienteconta primary key (codigo_cliente, codigo_conta),
     constraint fk_clienteconta_cliente foreign key (codigo_cliente) references cliente (codigo),
@@ -328,7 +328,7 @@ create table cliente_conta(
 );
 
 create table seguro_cobertura(
-	codigo_seguro int,
+    codigo_seguro int,
     codigo_cobertura int,
     constraint pk_segurocobertura primary key (codigo_seguro, codigo_cobertura),
     constraint fk_segurocobertura_seguro foreign key (codigo_seguro) references seguro (codigo),
@@ -336,7 +336,7 @@ create table seguro_cobertura(
 );
 
 create table SeguroServico(
-	codigoSeguro int,
+    codigoSeguro int,
     codigoServico int,
     constraint PK_SeguroServico primary key (codigoSeguro, codigoServico),
     constraint FK_SeguroServico_Seguro foreign key (codigoSeguro) references Seguro (codigo),
@@ -344,7 +344,7 @@ create table SeguroServico(
 );
 
 create table sinistro_cobertura(
-	codigo_sinistro int,
+    codigo_sinistro int,
     codigo_cobertura int,
     constraint pk_sinistrocobertura primary key (codigo_sinistro, codigo_cobertura),
     constraint fk_sinistrocobertura_sinistro foreign key (codigo_sinistro) references sinistro (codigo),
