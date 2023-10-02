@@ -2439,7 +2439,7 @@
 <Relacionamento ID="236">
 <Bounds Height="50" Left="802" Top="312" Width="150"/>
 <DisablePainted Valor="false"/>
-<Texto>contém</Texto>
+<Texto>contÃ©m</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
