@@ -1,6 +1,6 @@
 /*
 Banco: fastbank
-Autor: Julia
+Autor: Julia Roberta
 Última alteração: 11/09/23
 Tipo: DDL
 Descrição: Banco de Dados de uma instituição financeira virtual
