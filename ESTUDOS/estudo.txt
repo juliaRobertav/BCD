@@ -25,3 +25,22 @@ https://youtu.be/2E7crqRI1iE
 Curso Modelagem de Dados:
 
 https://www.youtube.com/watch?v=Q_KTYFgvu1s&list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD
+
+
+
+DICAS:
+
+
+alterar tabelas:
+
+http://www.bosontreinamentos.com.br/mysql/mysql-alterar-tabelas-alter-table-e-visualizar-relacionamentos-10/
+
+chaves:
+
+https://www.w3schools.com/sql/sql_foreignkey.asp
+
+** constraint - chaves ficam visíveis nas colunas
+
+auto increment:
+
+http://www.bosontreinamentos.com.br/mysql/mysql-auto-incremento-de-valores-em-colunas-08/
