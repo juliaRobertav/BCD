@@ -4229,7 +4229,7 @@
 <Especializacao ID="1080">
 <Bounds Height="32" Left="514" Top="361" Width="40"/>
 <DisablePainted Valor="false"/>
-<Texto>Especialização_1</Texto>
+<Texto>EspecializaÃ§Ã£o_1</Texto>
 <Observacao/>
 <Dicionario/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
@@ -4498,7 +4498,7 @@
 <Observacao/>
 <Fonte Estilo="1" Nome="Arial" Tamanho="12"/>
 <Ancorado Valor="false"/>
-<Titulo>Observação_1</Titulo>
+<Titulo>ObservaÃ§Ã£o_1</Titulo>
 <PaintTitulo Valor="false"/>
 <Alinhamento Valor="0"/>
 <CentrarVertical Valor="false"/>
