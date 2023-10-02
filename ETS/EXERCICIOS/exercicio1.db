@@ -1,0 +1,5 @@
+SELECT strftime('%d', T1.BirthDate) Day, T2.FirstName, T2.LastName
+FROM [HumanResources.Employee] T1
+INNER JOIN [Person.Person] T2 ON T1.BusinessEntityID = T2.BusinessEntityID
+WHERE strftime('%m', T1.BirthDate) = '08'
+ORDER BY Day;

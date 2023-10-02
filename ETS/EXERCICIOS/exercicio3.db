@@ -1,0 +1,36 @@
+CREATE TABLE Funcionario(
+id_funcionario integer,
+nome varchar(200),
+data_aniv varchar(10),
+salario decimal(10, 2),
+ativo varchar(10)
+);
+
+
+CREATE TABLE Funcionario(
+id_funcionario integer,
+nome varchar(200),
+data varchar(10),
+salario decimal(10, 2),
+ativo varchar(10)
+);
+
+
+
+CREATE TABLE Funcionario(
+id_funcionario integer PRIMARY KEY,
+nome varchar(200),
+data varchar(10),
+salario decimal(10, 2),
+ativo varchar(10)
+);
+
+
+
+CREATE TABLE Funcionario(
+id_funcionario integer PRIMARY KEY,
+nome varchar(200) NOT NULL,
+data varchar(10),
+salario decimal(10, 2),
+ativo varchar(10)
+);

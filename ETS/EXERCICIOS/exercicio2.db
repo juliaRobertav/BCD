@@ -1,0 +1,4 @@
+
+SELECT T1.CustomerID, T2.FirstName || ' '  ||  T2.MiddleName || ' '  || T2.LastName AS FullName
+FROM [Sales.Customer] T1
+INNER JOIN  [Person.Person] T2 ON T1.CustomerID = T2.BusinessEntityID
