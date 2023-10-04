@@ -56,3 +56,10 @@ Dado e Informação
 
 Dado -> menor parte do banco de dados, o banco é criado para guardar dados não informação
 Elemento bruto geralmente proveniente de uma entrada do usuário ou de outros sistemas.
+
+Exemplo - dado = célula/átomo, é uma unidade elementar no nosso corpo, ou seja, o dado é a menor parte 
+
+Informação -> Elemento processado (lapidado) constituído de dados
+Conjunto de dados salvos no banco de dados e a partir dai, ira processar, fazer modificações nesse dado 
+para gerar a informação
+É proveniente do processamento de dados.
