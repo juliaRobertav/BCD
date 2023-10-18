@@ -1,8 +1,8 @@
 ---
-description: Banco de Dados não relacional
+description: Relacional X Não Relacional
 ---
 
-# BD -> Não Relacional
+# Banco de Dados
 
 Learn MongoDB
 
