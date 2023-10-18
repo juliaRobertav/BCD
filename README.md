@@ -1,3 +1,5 @@
+[Para acessar meu GitBook caso queira ver melhor!](https://julinha.gitbook.io/bdo/)
+
 ---
 description: Conteúdos relacionados a Banco de Dados
 ---
